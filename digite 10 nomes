@@ -1,0 +1,14 @@
+using static System.Console;
+
+List<string> nome = new List<string>();
+WriteLine("======Digite 10 Nomes======");
+for (int i = 0; i < 10; i++)
+{
+    nome.Add(ReadLine());
+}
+WriteLine();
+WriteLine("Primeiro Nome");
+WriteLine(nome[0]);
+WriteLine("Último Nome");
+WriteLine(nome[9]);
+ReadLine();
